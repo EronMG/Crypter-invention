@@ -6,13 +6,13 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-flow: column;
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
 }
 
-/*----------------------HEADER---------------------*/
+/**----------------------HEADER---------------------*/
 
 header {
     max-width: 1440px;
@@ -28,7 +28,7 @@ header {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 21px;
-    border-bottom: 1px solid#353945;
+    border-bottom: 1px solid grey;
 }
 
 .header__nav__content {
@@ -101,7 +101,7 @@ header {
 .header__nav__actions__notifications {
     width: 40px;
     height: 40px;
-    background-image: url(/Crypter-invention/pics/Notification.png);
+    background-image: url(/pics/Notification.png);
 }
 
 .header__nav__actions__buttons {
@@ -112,7 +112,7 @@ header {
 }
 
 .header__nav__actions__buttons .button-left {
-    font-family: 'DM';
+    font-family: 'DM Sans';
     background: #3772FF;
     border-radius: 90px;
     border: 0px;
@@ -132,7 +132,7 @@ header {
 }
 
 .header__nav__actions__buttons .button-right {
-    font-family: 'DM';
+    font-family: 'DM Sans';
     border: 2px solid #777E91;
     border-radius: 90px;
     padding-top: 12px;
@@ -144,21 +144,46 @@ header {
 }
 
 
-/*----------------------HEADER_END---------------------*/
-/*----------------------NAVIGAION_TOP---------------------*/
+/**----------------------HEADER_END---------------------*/
 
-.nav-top{
+
+/**----------------------NAVIGAION_TOP---------------------*/
+
+.section_1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-flow: column;
+}
 
+.nav-top{
     max-width: 1440px;
     width: 100%;
-    background-color: aquamarine;
+    
+    border-bottom: 1px solid #E6E8EC;; ;
 }
 
 .nav-top__content{
     display: flex;
+    max-width: 1140px;
+    width: 100%;
+    gap: 772px;
+    padding: 32px 160px;
+}
+
+.nav_top__button{
+    max-width: 153px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-top__button-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px 12px 16px;
+    gap: 15px;
 }
 
 .nav-top__button{
@@ -166,13 +191,217 @@ header {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 12px, 16px;
-    max-width: 153px;
-    width: 100%;
+    background-color: white;
     border: 2px solid #E6E8EC;
     border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    gap: 12px;
+}
 
+.nav-top__button__title{
+    max-width: 93px;
+    width: 100%;
+}
+
+.nav-top__right{
+    max-width: 195px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 33px;
 }
 
 
-/*----------------------NAVIGAION_TOP_END---------------------*/
+.right__title-home{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #777E91;
+}
+
+.right__title-Upload_item{
+    max-width: 83px;
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #23262F;
+}
+/**----------------------NAVIGAION_TOP_END---------------------*/
+
+
+/**----------------------HEADLINE---------------------*/
+
+.headline{
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.headline__content-title{
+    max-width: 736px;
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #23262F;
+    padding-bottom: 16px;
+}
+
+.headline__content-text{
+    max-width: 736px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #777E91;
+}
+
+.single{
+    color: #000000;
+}
+
+
+/**----------------------HEADLINE_END---------------------*/
+
+
+/**----------------------CONTAINER---------------------*/
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-flow: column;
+}
+
+.container__wrapper{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 32px;
+
+}
+.wrapper__img{
+    max-width: 736px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    max-width: 360px;
+    width: 100%;
+    border: 1px solid #E6E8EC;
+    border-radius: 16px;
+}
+
+.contaier1__content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    
+}
+
+.container1__content-img{
+    max-width: 320px;
+    width: 100%;
+}
+
+.container1__content__button{
+    max-width: 123px;
+    width: 100%;
+    border: 2px solid #E6E8EC;
+    background-color: white;
+    border-radius: 90px;
+}
+
+.create_single{
+    max-width: 91px;
+    width: 100%;
+    padding: 12px 16px 12px 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #23262F;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    max-width: 360px;
+    width: 100%;
+    border: 1px solid #E6E8EC;
+    border-radius: 16px;
+}
+
+
+.container2__content__button{
+    max-width: 137px;
+    width: 100%;
+    border: none;
+    background-color: #3772FF;
+    border-radius: 90px;
+}
+
+.create_multiple{
+    max-width: 105px;
+    width: 100%;
+    padding: 12px 16px 12px 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+
+
+.container__bot-title{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #777E91;
+}
+
+/**----------------------CONTAINER_END---------------------*/
