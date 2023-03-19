@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <script src="../Crypter-invention/js/desktop.js"></script>
+    <script src="js/timer.js"></script>
     <header class="header">
         <nav class="header__nav">
             <div class="header__nav__content">
@@ -48,14 +48,14 @@
             <div class="auction__frame__title">
                 <p>the creator network®</p>
                 <div class="auction__frame__title__network">
-                    <div class="auction__frame__title__network">
+                    <div class="auction__frame__title__network__inf">
                         <div class="network__left__user"></div>
                         <div class="network__left__title">
-                            <h1>Creator</h1>
+                            <h2>Creator</h2>
                             <p>Enrico Cole</p>
                         </div>
                     </div>
-                    <div class="auction__frame__title__network">
+                    <div class="auction__frame__title__network__inf">
                         <div class="network__right__user"></div>
                         <div class="network__left__title">
                             <h2>Instant price</h2>
@@ -66,16 +66,26 @@
             </div>
             <div class="auction__frame__block">
                 <div class="auction__frame__block__title">
-                    <p>Current Bid</p>
+                    <p class="bid">Current Bid</p>
                     <p>1.00 ETH</p>
                     <h2>$3,618.36</h2>
                 </div>
                 <div class="auction__frame__block__timer">
                     <p>Auction ending in</p>
-                    <div class="auction__frame__block__timer__hours">
+                    <div class="auction__frame__block__timer__flex">
+                        <div class="auction__frame__block__timer__hours">
+                            <p id="demo"></p>
+                            <h2>Hrs</h2>
+                        </div>
+                        <div class="auction__frame__block__timer__minuts">
+                            <p id="demo2"></p>
+                            <h2>Min</h2>
+                        </div>
+                        <div class="auction__frame__block__timer__sec">
+                            <p id="demo3"></p>
+                            <h2>Sec</h2>
+                        </div>
                     </div>
-                    <div class="auction__frame__block__timer__minuts"></div>
-                    <div class="auction__frame__block__timer__sec"></div>
                 </div>
             </div>
             <div class="auction__frame__buttons"></div>

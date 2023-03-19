@@ -204,8 +204,182 @@ section {
 }
 
 .auction {
-    background-color: azure;
     width: 100%;
     max-width: 1920px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    padding-top: 128px;
+    padding-bottom: 136px;
+}
+
+.auction__video {
+    background-image: url(../pics/auction1.png);
+    width: 100%;
+    max-width: 640px;
+    height: 800px;
+    background-size: cover;
+}
+
+.auction__frame {
+    max-width: 352px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+}
+
+.auction__frame__title {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.auction__frame__title p {
+    font-family: 'DM';
+    font-style: normal;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.auction__frame__title__network {
+    display: flex;
+    gap: 105px;
+    width: 100%;
+}
+
+.auction__frame__title__network h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.auction__frame__title__network p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.auction__frame__title__network__inf {
+    display: flex;
+    flex-flow: wrap;
+    gap: 8px;
+}
+
+.network__left__user {
+    background-image: url(../pics/user1.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+.network__right__user {
+    background-image: url(../pics/user2.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+.auction__frame__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 0px;
+    align-items: center;
+    gap: 24px;
+    background: #23262F;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 24px;
+}
+
+.auction__frame__block .bid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.auction__frame__block p {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.auction__frame__block__title h2 {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #777E91;
+}
+
+.auction__frame__block__timer {
+    max-width: 231px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.auction__frame__block__timer p {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.auction__frame__block__timer__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.auction__frame__block__timer__hours {
+    display: flex;
+    flex-flow: column;
+}
+
+.auction__frame__block__timer__flex p {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.auction__frame__block__timer__flex h2 {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #777E91;
 }
