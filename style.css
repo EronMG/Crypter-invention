@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    max-width: 1440px;
+    width: 100%;
+}
+
+/*----------------------HEADER---------------------*/
+
+header {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid#353945;
+}
+
+.header__nav__content {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__nav__content__logo {
+    display: flex;
+}
+
+.header__nav__content__line {
+    width: 2px;
+    height: 40px;
+    background: #353945;
+}
+
+.header__nav__content a {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #777E91;
+    text-decoration: none;
+}
+
+.header__nav__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    max-width: 573px;
+    width: 100%;
+}
+
+.header__nav__actions__search {
+    max-width: 573px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.site-search {
+    max-width: 186px;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    background: none;
+    height: 40px;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #353945;
+    border-radius: 8px;
+    max-width: 256px;
+    width: 100%;
+}
+
+.site-search:focus {
+    outline: none;
+}
+
+.header__nav__actions__notifications {
+    width: 40px;
+    height: 40px;
+    background-image: url(/Crypter-invention/pics/Notification.png);
+}
+
+.header__nav__actions__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__nav__actions__buttons .button-left {
+    font-family: 'DM';
+    background: #3772FF;
+    border-radius: 90px;
+    border: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #FCFCFD;
+}
+
+.header__nav__actions__buttons .button-left:active {
+    background: rgb(55, 114, 255);
+    background: -moz-linear-gradient(76deg, rgba(55, 114, 255, 1) 0%, rgb(18, 37, 106) 100%);
+    background: -webkit-linear-gradient(76deg, rgba(55, 114, 255, 1) 0%, rgb(21, 40, 109) 100%);
+    background: linear-gradient(76deg, rgba(55, 114, 255, 1) 0%, rgb(23, 43, 116) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3772ff", endColorstr="#04060d", GradientType=1);
+}
+
+.header__nav__actions__buttons .button-right {
+    font-family: 'DM';
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: none;
+    color: #000000;
+}
+
+
+/*----------------------HEADER_END---------------------*/
+/*----------------------NAVIGAION_TOP---------------------*/
+
+.nav-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1440px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.nav-top__content{
+    display: flex;
+}
+
+.nav-top__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px, 16px;
+    max-width: 153px;
+    width: 100%;
+    border: 2px solid #E6E8EC;
+    border-radius: 90px;
+
+}
+
+
+/*----------------------NAVIGAION_TOP_END---------------------*/
