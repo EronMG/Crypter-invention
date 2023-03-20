@@ -6,10 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/desktop.css">
+    <link href="/ui-components-master/itc-slider/itc-slider.css" rel="stylesheet">
+    <script src="/ui-components-master/itc-slider/itc-slider.js" defer></script>
     <title>Home Page</title>
 </head>
 
 <body>
+    <style>
+        *,
+        *::before,
+        *::after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .container__dada {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .itc-slider__item {
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 7rem;
+        }
+        
+        .itc-slider__item:nth-child(1) {
+            background-color: #f44336;
+        }
+        
+        .itc-slider__item:nth-child(2) {
+            background-color: #9c27b0;
+        }
+        
+        .itc-slider__item:nth-child(3) {
+            background-color: #3f51b5;
+        }
+        
+        .itc-slider__item:nth-child(4) {
+            background-color: #03a9f4;
+        }
+        
+        .itc-slider__item:nth-child(5) {
+            background-color: #4caf50;
+        }
+    </style>
     <script src="js/timer.js"></script>
     <script src="js/background.js"></script>
     <header class="header" id="lox">
@@ -222,11 +268,45 @@
         <div class="top__creator__container">
             <div class="top__creator__container__filter">
                 <div class="top__creator__container__filter__seller"></div>
-                <div class="top__creator__container__filter__seller"></div>
+                <div class="top__creator__container__filter__timeframe"></div>
             </div>
-            <div class="top__creator__container__creators"></div>
+            <div class="top__creator__container__creators">
+
+            </div>
         </div>
     </section>
+    <div class="container__dada">
+
+        <div class="itc-slider" data-slider="itc-slider" data-loop="false" data-autoplay="false">
+            <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                    <div class="itc-slider__item">
+                        <!-- Контент 1 слайда -->
+                        1
+                    </div>
+                    <div class="itc-slider__item">
+                        <!-- Контент 2 слайда -->
+                        2
+                    </div>
+                    <div class="itc-slider__item">
+                        <!-- Контент 3 слайда -->
+                        3
+                    </div>
+                    <div class="itc-slider__item">
+                        <!-- Контент 4 слайда -->
+                        4
+                    </div>
+                    <div class="itc-slider__item">
+                        <!-- Контент 5 слайда -->
+                        5
+                    </div>
+                </div>
+            </div>
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+        </div>
+
+    </div>
 </body>
 
 </html>
