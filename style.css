@@ -156,8 +156,6 @@ header {
 .section1{
     width: 640px;
     height: 1379px;
-   
-   
     border-radius: 16px;
 }
 
@@ -223,6 +221,7 @@ form{
     display: flex;
     flex-flow: column;
     gap: 16px;
+    padding-bottom: 40px;
 }
 
 .form__section1__title{
