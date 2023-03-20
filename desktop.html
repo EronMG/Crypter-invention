@@ -37,7 +37,86 @@
         }
         
         .itc-slider__item:nth-child(1) {
-            background-color: #f44336;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            gap: 24px;
+            background: #141416;
+            border-radius: 16px;
+        }
+        
+        .creator__box__top {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .creator__box__line {
+            width: 150.4px;
+            height: 1px;
+            background: #353945;
+        }
+        
+        .creator__box__inf {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 16px;
+        }
+        
+        .creator__box__inf__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 2px;
+        }
+        
+        .creator__box__inf__content h2 {
+            font-family: 'DM';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FCFCFD;
+        }
+        
+        .creator__box__inf__content p {
+            font-family: 'DM';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 20px;
+            color: #E6E8EC;
+        }
+        
+        .creator__box__inf__content span {
+            font-family: 'DM';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            color: #777E91;
+        }
+        
+        .creator__box__top__left {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 2px 8px;
+            gap: 4px;
+            background: #3772FF;
+            border-radius: 24px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 20px;
+            color: #FCFCFD;
         }
         
         .itc-slider__item:nth-child(2) {
@@ -56,6 +135,8 @@
             background-color: #4caf50;
         }
     </style>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/timer.js"></script>
     <script src="js/background.js"></script>
     <header class="header" id="lox">
@@ -282,8 +363,26 @@
                         <div class="itc-slider__wrapper">
                             <div class="itc-slider__items">
                                 <div class="itc-slider__item">
-                                    <!-- Контент 1 слайда -->
-                                    1
+                                    <div class="creator__box__top">
+                                        <div class="creator__box__top__left">
+                                            <p>
+                                                <ion-icon name="trophy-outline"></ion-icon> #1
+                                            </p>
+                                        </div>
+                                        <div class="creator__box__top__right">
+                                            <ion-icon name="add-circle-outline"></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+
+                                        </div>
+                                    </div>
+                                    <div class="creator__box__line"></div>
+                                    <div class="cretor__box__inf">
+                                        <div class="creator__box__inf__photo"></div>
+                                        <div class="creator__box__inf__content">
+                                            <h2>Payton Harris</h2>
+                                            <p>2.456 <span>ETH</span></p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="itc-slider__item">
                                     <!-- Контент 2 слайда -->
