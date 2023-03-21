@@ -832,7 +832,7 @@ section {
 }
 
 .top__creator__container__filter__timeframe h2 {
-    font-family: 'Poppins';
+    font-family: 'DM';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -841,6 +841,7 @@ section {
     align-items: center;
     text-transform: uppercase;
     color: #B1B5C4;
+    letter-spacing: 0.2rem;
 }
 
 *,
@@ -1135,18 +1136,6 @@ section {
     font-family: "DM";
 }
 
-.timeframe__button {
-    border-radius: 100px;
-    width: 32px;
-    height: 32px;
-    transition: 1s;
-    background: none;
-    color: white;
-    font-size: 20px;
-    border: 2px solid #353945;
-    border-radius: 100px;
-}
-
 .timeframe__button:focus {
     height: 200px;
     background: none;
@@ -1157,4 +1146,42 @@ section {
 .timeframe__border__p {
     display: flex;
     flex-flow: column;
+}
+
+.timeframe__flex {
+    display: flex;
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #B1B5C4;
+    letter-spacing: 0.2rem;
+}
+
+#day-of-week {
+    border-radius: 100px;
+    width: 256px;
+    height: 48px;
+    transition: 1s;
+    background: none;
+    color: white;
+    font-size: 14px;
+    border: 2px solid #353945;
+    border-radius: 12px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#day-of-button {
+    position: relative;
+    top: 10px;
+    right: 40px;
+    background: none;
+    color: #7b7c7e;
+    border: 0;
+    font-size: 32px;
 }
