@@ -1,9 +1,9 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,7 @@ body{
     width: 100%;
     background-color: #141416;
 }
+
 
 /**----------------------HEADER---------------------*/
 
@@ -83,7 +84,7 @@ header {
     background: none;
     height: 40px;
     color: white;
- }
+}
 
 .search {
     display: flex;
@@ -144,17 +145,16 @@ header {
     color: #FCFCFD;
 }
 
-.section{
+.section {
     width: 100%;
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid grey;
+    flex-flow: column;
+    padding: 80px 160px 136px;
 }
 
-.wallet{
+.wallet {
     display: flex;
     flex-flow: row;
     font-family: 'DM Sans';
@@ -166,16 +166,18 @@ header {
     color: #FCFCFD;
     flex-flow: row;
     gap: 24.33px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
 }
 
-.wallet__button{
+.wallet__button {
     background: none;
     border: 0;
     color: #FCFCFD;
     font-size: 36px;
 }
 
-.section__2{
+.section__2 {
     width: 100%;
     max-width: 1440px;
     display: flex;
@@ -184,7 +186,7 @@ header {
     padding-bottom: 500px;
 }
 
-.content__top{
+.content__top {
     display: flex;
     flex-flow: column;
     font-family: 'Poppins';
@@ -196,7 +198,7 @@ header {
     gap: 32px;
 }
 
-.content__button__1{
+.content__button__1 {
     display: flex;
     padding: 32px;
     border-radius: 80px;
@@ -204,33 +206,33 @@ header {
     border: none;
 }
 
-.content__button__2{
+.content__button__2 {
     padding: 32px;
     border-radius: 80px;
     background-color: #3772FF;
     border: none;
 }
 
-.content__button__3{
+.content__button__3 {
     padding: 32px;
     border-radius: 80px;
     background-color: #45B26B;
     border: none;
 }
 
-.content__button__4{
+.content__button__4 {
     padding: 32px;
     border-radius: 80px;
     background-color: #EF466F;
     border: none;
 }
 
-.content__text{
+.content__text {
     display: flex;
     align-items: center;
 }
 
-.content__top form{
+.content__top form {
     display: flex;
     gap: 32px;
 }
