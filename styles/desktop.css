@@ -23,27 +23,42 @@ header {
 .header__nav {
     width: 100%;
     max-width: 1440px;
+    padding: 0px 160px;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 21px;
     border-bottom: 1px solid#353945;
 }
 
 .header__nav__content {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 32px;
+    position: relative;
+    right: 80px;
 }
 
 .header__nav__content__logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: "DM";
+    font-weight: 200;
+}
+
+.header__nav__content__logo p {
+    position: relative;
+    right: 75px;
 }
 
 .header__nav__content__line {
     width: 2px;
     height: 40px;
     background: #353945;
+    position: relative;
+    right: 75px;
 }
 
 .header__nav__content a {
@@ -55,6 +70,8 @@ header {
     text-align: center;
     color: #777E91;
     text-decoration: none;
+    position: relative;
+    right: 75px;
 }
 
 .header__nav__actions {
@@ -980,10 +997,6 @@ section {
     height: 68px;
 }
 
-.itc-slider__item:hover {
-    height: 263px;
-}
-
 .itc-slider__item:nth-child(2) {
     display: flex;
     flex-direction: column;
@@ -1184,4 +1197,188 @@ section {
     color: #7b7c7e;
     border: 0;
     font-size: 32px;
+}
+
+.hot__bid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 136px 160px 128px;
+    gap: 64px;
+    background: #141416;
+}
+
+.hot__bid__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    max-width: 1120px;
+    width: 100%;
+}
+
+.hot__bid__title h2 {
+    width: 100%;
+    max-width: 968px;
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.hot__bid__title__arrows {
+    background-color: #9757D7;
+}
+
+.hot__bid__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    max-width: 1120px;
+    width: 100%;
+}
+
+.hot__bid__content__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    max-width: 256px;
+}
+
+.hot__bid__content__item__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0px;
+    gap: 12px;
+    border-radius: 0px 0px 16px 16px;
+    max-width: 256px;
+    width: 100%;
+}
+
+.hot__bid__content__item__title__inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+    max-width: 256px;
+}
+
+.hot__bid__content__item__title__inf p {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+    width: 256px;
+}
+
+.hot__bid__content__item__title__inf span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 10px;
+    width: 100%;
+    max-width: 68px;
+    border: 2px solid #45B36B;
+    border-radius: 4px;
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #45B36B;
+}
+
+.hot__bid__content__item__title__users p {
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E6E8EC;
+}
+
+.hot__bid__content__item__title__line {
+    width: 100%;
+    height: 1px;
+    max-width: 256px;
+    background: #353945;
+    border-radius: 1px;
+}
+
+.hot__bid__content__item__title__bid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+.hot__bid__content__item__title__bid__high {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    max-width: 152px;
+    width: 100%;
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+    text-align: center;
+}
+
+.hot__bid__content__item__title__bid__high span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.icon__bid {
+    font-size: 16px;
+}
+
+.hot__bid__content__item__title__bid__new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 74px;
+    font-family: 'DM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.hot__bid__content__item__product img {
+    object-fit: cover;
+    border-radius: 16px;
+    width: 256px;
+    height: 303px;
 }
