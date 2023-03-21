@@ -10,6 +10,7 @@ body{
     flex-flow: column;
     max-width: 1920px;
     width: 100%;
+    background-color: #141416;
 }
 
 /**----------------------HEADER---------------------*/
@@ -140,5 +141,37 @@ header {
     padding-left: 16px;
     padding-right: 16px;
     background: none;
-    color: #000000;
+    color: #FCFCFD;
 }
+
+.selection{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.wallet{
+    display: flex;
+    flex-flow: row;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+    flex-flow: row;
+    gap: 24.33px;
+}
+
+.wallet__button{
+    background: none;
+    border: 0;
+    color: #FCFCFD;
+    font-size: 36px;
+}
+
