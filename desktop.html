@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <script src="/js/button.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/timer.js"></script>
@@ -236,210 +237,215 @@
                 <div class="top__creator__container__filter__timeframe">
                     <h2>Timeframe</h2>
                     <!--! NEED ADD A FUNCTION TO THIS BLOCK-->
-                    <p>dobavit</p>
+                    <div class="top__creator__container__filter__timeframe__border">
+                        <div class="timeframe__border__p">
+                            <p>Today</p>
+                        </div>
+                        <input type="button" class="timeframe__button" value="˅" onmousedown="viewDiv()">
+                    </div>
                     <!--! NEED ADD A FUNCTION TO THIS BLOCK-->
                 </div>
             </div>
-            <div class="top__creator__container__creators">
-                <div class="container__dada">
-                    <div class="itc-slider" data-slider="itc-slider" data-loop="false" data-autoplay="false">
-                        <div class="itc-slider__wrapper">
-                            <div class="itc-slider__items">
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left">
+            <div class=" top__creator__container__creators ">
+                <div class="container__dada ">
+                    <div class="itc-slider " data-slider="itc-slider " data-loop="false " data-autoplay="false ">
+                        <div class="itc-slider__wrapper ">
+                            <div class="itc-slider__items ">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #1
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left second__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left second__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #2
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo second__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo second__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left third__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left third__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #3
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo third__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo third__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left fourth__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left fourth__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #4
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo fourth__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo fourth__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left fourth__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left fourth__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #5
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo fifth__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo fifth__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left second__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left second__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #6
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo second__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo second__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left third__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left third__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #7
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo fifth__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo fifth__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="itc-slider__item">
-                                    <div class="creator__box__top">
-                                        <div class="creator__box__top__left third__trophy">
+                                <div class="itc-slider__item ">
+                                    <div class="creator__box__top ">
+                                        <div class="creator__box__top__left third__trophy ">
                                             <p>
-                                                <ion-icon name="trophy-outline"></ion-icon>
+                                                <ion-icon name="trophy-outline "></ion-icon>
                                             </p>
                                             <p>
                                                 #8
                                             </p>
                                         </div>
-                                        <div class="creator__box__top__right">
-                                            <ion-icon name="add-circle-outline" class="icon__circle"></ion-icon>
-                                            <ion-icon name="arrow-redo-circle-outline" class="icon__arrow"></ion-icon>
+                                        <div class="creator__box__top__right ">
+                                            <ion-icon name="add-circle-outline " class="icon__circle "></ion-icon>
+                                            <ion-icon name="arrow-redo-circle-outline " class="icon__arrow "></ion-icon>
                                         </div>
                                     </div>
-                                    <div class="creator__box__line"></div>
-                                    <div class="creator__box__inf">
-                                        <div class="creator__box__inf__photo second__photo">
+                                    <div class="creator__box__line "></div>
+                                    <div class="creator__box__inf ">
+                                        <div class="creator__box__inf__photo second__photo ">
                                         </div>
-                                        <div class="creator__box__inf__content">
+                                        <div class="creator__box__inf__content ">
                                             <h2>Payton Harris</h2>
                                             <p>2.456 <span>ETH</span></p>
                                         </div>
@@ -447,8 +453,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="itc-slider__btn itc-slider__btn_prev"></button>
-                        <button class="itc-slider__btn itc-slider__btn_next"></button>
+                        <button class="itc-slider__btn itc-slider__btn_prev "></button>
+                        <button class="itc-slider__btn itc-slider__btn_next "></button>
                     </div>
                 </div>
             </div>

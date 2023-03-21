@@ -843,11 +843,6 @@ section {
     color: #B1B5C4;
 }
 
-.top__creator__container__filter__timeframe p {
-    border: 2px solid #2d4ca9;
-    border-radius: 12px;
-}
-
 *,
 *::before,
 *::after {
@@ -1123,4 +1118,43 @@ section {
     background-image: url(/pics/user444.png);
     width: 69.1px;
     height: 70px;
+}
+
+.top__creator__container__filter__timeframe__border {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 16px;
+    gap: 18px;
+    width: 256px;
+    max-width: 256px;
+    border: 2px solid #353945;
+    border-radius: 12px;
+    color: white;
+    font-family: "DM";
+}
+
+.timeframe__button {
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    transition: 1s;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #353945;
+    border-radius: 100px;
+}
+
+.timeframe__button:focus {
+    height: 200px;
+    background: none;
+    border: none;
+    color: #b1b5c400;
+}
+
+.timeframe__border__p {
+    display: flex;
+    flex-flow: column;
 }
