@@ -896,6 +896,7 @@ section {
     width: 150.4px;
     height: 1px;
     background: #353945;
+    padding-bottom: 1px;
 }
 
 .creator__box__inf {
@@ -1069,4 +1070,57 @@ section {
     background: #141416;
     border-radius: 16px;
     transition: 1s;
+}
+
+.itc-slider__item:nth-child(8) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    max-width: 198.4px;
+    width: 100%;
+    gap: 24px;
+    background: #141416;
+    border-radius: 16px;
+    transition: 1s;
+}
+
+.second__trophy {
+    background: #9757D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third__trophy {
+    background: #45B36B;
+}
+
+.fourth__trophy {
+    background: #23262F;
+}
+
+.second__photo {
+    background-image: url(/pics/user111.png);
+    width: 81.5px;
+    height: 80px;
+}
+
+.third__photo {
+    background-image: url(/pics/user222.png);
+    width: 68px;
+    height: 68px;
+}
+
+.fourth__photo {
+    background-image: url(/pics/04.png);
+    width: 64px;
+    height: 64px;
+}
+
+.fifth__photo {
+    background-image: url(/pics/user444.png);
+    width: 69.1px;
+    height: 70px;
 }
