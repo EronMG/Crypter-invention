@@ -1472,7 +1472,3 @@ section {
 .product__first:hover .hidden__box__bottom__button {
     opacity: 1;
 }
-
-.hidden__box__top__heart:focus {
-    color: #00a423;
-}

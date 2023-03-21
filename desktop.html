@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <script src="/js/heart.js"></script>
     <script src="/js/button.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -485,7 +486,22 @@
                 <div class="hot__bid__content__item__product product__first">
                     <div class="hidden__box__top">
                         <button class="hidden__box__top__buy">purchasing !</button>
-                        <input type="button" value="♡" class="hidden__box__top__heart">
+                        <button id="lox">
+                            <ion-icon name="heart"></ion-icon>
+                          </button>
+
+                        <script>
+                            const button = document.querySelector('#lox');
+                            let isLiked = false;
+                            button.addEventListener('click', () => {
+                                isLiked = !isLiked;
+                                if (isLiked) {
+                                    button.style.color = 'green';
+                                } else {
+                                    button.style.color = 'gray';
+                                }
+                            });
+                        </script>
                     </div>
                     <button class="hidden__box__bottom__button">Place a bid <ion-icon name="pulse-outline"></ion-icon></button>
                 </div>
